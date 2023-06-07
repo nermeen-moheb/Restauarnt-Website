@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["title"] = "Menu";
+}
+@if (@TempData["SigninFlag"] != null && @TempData["SigninFlag"].ToString() == "1")
+{
+
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+
+}
+@model IEnumerable<Menu>;
+
+<style>
+    table {
+        margin-top: 5%;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 2px solid white;
+    }
+
+    .add{
+        margin-top:2%;
+
+    }
+    .h{
+        width:80px;
+        height:40px;
+        color:white;
+        font-size:x-large;
+        font-weight:bolder;
+        text-decoration:none;
+    }
+</style>
+
+
+
+<table class="table table-bordered" style="color:white; border-color:white">
+    <thead>
+        <tr>
+            <th>Item Name</th>
+            <th>Item Description</th>
+            <th>Item Image</th>
+            <th>Item Price</th>
+            <th>Item Category</th>
+
+            <th>Item delete</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ItemName</td>
+                <td>@item.ItemDescription</td>
+                <td><img src="@Url.Content(@item.ImagePath)" style="width:80px; height:80px;" /></td>
+                <td> @item.ItemPrice </td>
+                <td> @item.Category </td>
+                <td>
+                    <a href="/Admin/Delete/@item.ItemID" style="text-decoration:none; color:white;">Delete </a>|                
+                    <a href="/Admin/Edit/@item.ItemID" style="text-decoration:none; color:white;">Edit </a>
+
+                </td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+    </table>
+    <div class="add">
+<a class="h" href="https://localhost:7049/Admin/Add" style="text-decoration:none" class="button">Add new item</a>
+</div>

@@ -1,0 +1,154 @@
+﻿@*@{
+    ViewData["title"] = "Orders";
+}
+@if (@TempData["SigninFlag"] != null && @TempData["SigninFlag"].ToString() == "1")
+{
+
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+
+}
+@model IEnumerable<Order_Item>;
+
+<style>
+    table {
+        margin-top: 5%;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 2px solid white;
+    }
+
+    .add {
+        margin-top: 2%;
+    }
+
+    .h {
+        width: 80px;
+        height: 40px;
+        color: white;
+        font-size: x-large;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+</style>
+
+
+
+<table class="table table-bordered" style="color:white; border-color:white">
+    <thead>
+        <tr>
+            <th>Customer Email</th>
+            <th>Item Name</th>
+            <th>Item Price</th>
+            <th>Item Quantity</th>
+            <th>Total price</th>
+            <th>Location</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Order.Customer.Email</td>
+                <td>@item.ItemName</td>
+                <td>@item.Menu.ItemPrice</td>
+                <td> @item.Quantity</td>
+                @{
+
+                    decimal res = @item.Quantity * @item.Menu.ItemPrice;
+                }
+                <td>@res</td>
+                <td>@item.Order.Customer.address</td>
+               
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+    </table>
+*@
+    @{
+    ViewData["title"] = "Orders";
+}
+@if (@TempData["SigninFlag"] != null && @TempData["SigninFlag"].ToString() == "1")
+{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@model IEnumerable<Order_Item>;
+
+<style>
+    table {
+        margin-top: 5%;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 2px solid white;
+    }
+
+    .add {
+        margin-top: 2%;
+    }
+
+    .h {
+        width: 80px;
+        height: 40px;
+        color: white;
+        font-size: x-large;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+</style>
+
+@{
+  
+    var groupedOrders = Model.GroupBy(o => o.Order.Customer.Email);
+}
+
+<table class="table table-bordered" style="color:white; border-color:white">
+    <thead>
+        <tr>
+            <th>Customer Email</th>
+            <th>Location</th>
+            <th>Item Name</th>
+            <th>Item Price</th>
+            <th>Item Quantity</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var group in groupedOrders)
+        {
+            var totalPrice = group.Sum(o => o.Quantity * o.Menu.ItemPrice);
+            var firstOrder = group.First(); // Get the first order in the group
+
+            <tr>
+                @if (group.Key != null)
+                {
+                    <td rowspan="@group.Count()">@firstOrder.Order.Customer.Email</td>
+                    <td rowspan="@group.Count()">@firstOrder.Order.Customer.address</td>
+                }
+
+                <td>@firstOrder.ItemName</td>
+                <td>@firstOrder.Menu.ItemPrice</td>
+                <td>@firstOrder.Quantity</td>
+        
+            </tr>
+
+            @foreach (var order in group.Skip(1))
+            {
+                <tr>
+                    <td>@order.ItemName</td>
+                    <td>@order.Menu.ItemPrice</td>
+                    <td>@order.Quantity</td>
+                   
+                </tr>
+            }
+        }
+    </tbody>
+</table>

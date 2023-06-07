@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["title"] = "Surveys";
+}
+@if (@TempData["SigninFlag"] != null && @TempData["SigninFlag"].ToString() == "1")
+{
+
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+
+}
+@model IEnumerable<Survey>;
+
+    <style>
+        table{
+         margin-top:5%;
+        border-collapse: collapse;
+        width: 100%;
+        }
+        th,td{
+        border: 2px solid white;
+        }
+    </style>
+
+
+
+<table class="table table-bordered" style="color:white; border-color:white">
+    <thead>
+        <tr>
+            <th>Food quality</th>
+            <th>Overall service</th>
+            <th>Cleanliness</th>
+            <th>Order Acuuricy</th>
+            <th>Speed of service</th>
+            <th>Value</th>
+            <th>Overall experience</th>
+            <th>Additional comments</th>
+            <th>Email</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FoodQuality</td>
+                <td>@item.OverallService</td>
+                <td>@item.Cleanliness</td>
+                <td> @item.OrderAccuracy </td>
+                <td> @item.SpeedofService </td>
+                <td> @item.Value </td>
+                <td> @item.OverallExperience</td>
+                <td> @item.additionalcomments </td>
+                <td> @item.Email </td>
+                <td> @item.Date </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+    </table>

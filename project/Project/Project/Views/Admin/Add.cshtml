@@ -1,0 +1,103 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Add item";
+}
+@{
+    Layout = null;
+}
+
+@model Menu
+
+<head>
+
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+            color: #d4cf37;
+        }
+
+        body {
+            background-image: Url("/lib/images/1.png" );
+            background-size: cover;
+            background-repeat: no-repeat;
+            backdrop-filter: blur(5px);
+        }
+
+        .signup-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+        }
+
+
+            .signup-form p {
+                font-size: x-large;
+                margin: 15px 0;
+            }
+
+            .signup-form input {
+                background-color: #f2f1d0;
+                font-size: x-large;
+                padding: 15px 10px;
+                width: 100%;
+                border-radius: 5px;
+            }
+
+            .signup-form button, .signup-form a {
+                font-size: x-large;
+                font-weight: bold;
+                margin: 20px 0;
+                padding: 10px 15px;
+                width: 50%;
+                height: 60px;
+                border-radius: 10px;
+                color: black;
+                background-color: #d4cf37;
+                border: 1px solid #d4cf37;
+            }
+    </style>
+</head>
+<body>
+    <div class="signup-form">
+
+
+        <br>
+        <form asp-controller="Admin" asp-action="Add" method="post" enctype="multipart/form-data" />
+        @Html.AntiForgeryToken()
+
+
+        <p>Item Name:</p>
+        <input type="text" name="ItemName" placeholder="Item Name" required value="@Model.ItemName">
+
+        <p>Price:</p>
+        <input type="text" name="ItemPrice" placeholder="Item Price" required value="@Model.ItemPrice">
+    
+
+        <p>Item description:</p>
+        <input type="text" name="ItemDescription" placeholder="Item Description" required value="@Model.ItemDescription">
+
+        <p>Category:</p>
+        <input type="text" name="Category" placeholder="Category" required value="@Model.Category">
+       
+
+        <p>Image path:</p>
+        <input type="text" name="ImagePath" placeholder="Image Path" required value="@Model.ImagePath">
+
+    
+        <br>
+        <button type="submit">Add</button> <br>
+
+
+
+
+
+
+    </div>
+
+</body>

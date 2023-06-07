@@ -1,0 +1,114 @@
+﻿@{
+    ViewData["Title"] = "ContactUs Page";
+}
+@if (@TempData["SigninFlag"] != null && @TempData["SigninFlag"].ToString() == "1")
+{
+
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+
+}
+@model ContactUs
+<html>
+   <head>
+ <style>
+  body {
+    background-color:black;
+    color:#d4cf37;
+  }
+.form{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+            width:100%;
+            margin-top:20px;
+}
+
+   input {
+    background-color: white;
+    border: none;
+
+    padding: 20px;
+    margin-bottom: 10px;
+     width: 110%
+
+}
+select{
+    background-color: white;
+    border: none;
+ 
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 110%
+
+}
+textarea {
+    
+    height:150px;
+    width: 110%
+}
+button{
+  background-color: #d4cf37;
+  border-radius: 30px;
+  width:150px;
+  height: 40px;
+  border: 1px solid #d4cf37;
+  margin-top: 10px;
+  font-size: larger;
+}
+ </style>
+
+   </head>
+
+   <body>
+    <div class="form">
+        <form asp-action="Index" asp-controller="ContactUs" method="post">
+          <div>
+            <span class="input-label"> Name
+                <span class="input-label-required"><font color="silver">-Required</font></span>        
+            </span>
+          </div>
+          <div>
+                <input class="main-input" type="text" placeholder="Your Name" name="Name" value="@Model.Name" />
+          </div>
+          <div>
+            <span class="input-label"> Email
+                <span class="input-label-required"><font color="silver" >-Required</font> </span>        
+            </span>
+          </div>
+          <div>
+                <input class="main-input" type="text" placeholder="Your Email" name="Email" value="@Model.Email" />
+          </div>
+          <div>
+            <span class="input-label"> What are you getting in touch about?
+                    <span class="input-label-required"><font color="grey">-Required</font></span>
+                </span>
+            </div>
+            <div class="form-control-group-has-icon-right">
+
+                @Html.DropDownListFor(model => model.Problem,
+                new SelectList(Enum.GetValues(typeof(Problem))))
+
+          
+            </div>
+      
+          <div>
+            <span class="input-label"> Your message
+                <span class="input-label-required"> <font color="silver">-Required</font></span>        
+            </span>
+          </div>
+          <div>
+
+                @Html.TextAreaFor(model=>model.Message)
+         
+          </div>
+
+          <button type= "submit" >submit</button>
+
+        </form>
+    
+
+      </div>
+   </body>
+</html>

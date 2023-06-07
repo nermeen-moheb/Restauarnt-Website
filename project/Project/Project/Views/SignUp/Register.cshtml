@@ -1,0 +1,115 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Sign Up";
+}
+@{
+    Layout = null;
+}
+
+@model Customer
+
+<head>
+
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+            color: #d4cf37;
+        }
+
+        body {
+            background-image: Url("/lib/images/1.png" );
+            background-size: cover;
+            background-repeat: no-repeat;
+            backdrop-filter: blur(5px);
+        }
+
+        .signup-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+        }
+
+
+            .signup-form p {
+                font-size: x-large;
+                margin: 15px 0;
+            }
+
+            .signup-form input {
+                background-color: #f2f1d0;
+                font-size: x-large;
+                padding: 15px 10px;
+                width: 90%;
+                border-radius: 5px;
+            }
+
+            .signup-form button, .signup-form a{
+                font-size: x-large;
+                font-weight: bold;
+                margin: 20px 0;
+                padding: 10px 15px;
+                width: 50%;
+                height: 60px;
+                border-radius: 10px;
+                color: black;
+                background-color: #d4cf37;
+                border: 1px solid #d4cf37;
+            }
+    </style>
+</head>
+<body>
+    <div class="signup-form">
+
+
+        <br>
+        <form asp-controller="SignUp" asp-action="Register" method="post" enctype="multipart/form-data"/>
+            @Html.AntiForgeryToken()
+    
+
+            <p>Email:</p>
+            <input type="email" name="Email" placeholder="Email Address" required value="@Model.Email"><br />
+            <span asp-validation-for="Email" class="text-danger"></span>
+            <p>User name:</p>
+        <input type="text" name="UserName" placeholder="User name" required value="@Model.UserName"><br />
+            <span asp-validation-for="UserName" class="text-danger"></span>
+
+            <p>Password:</p>
+        <input type="password" name="Password" placeholder="Password" required value="@Model.Password"><br />
+            <p>Re-enter Password:</p>
+        <input type="password" name="ConfirmPassword" placeholder="Re-enter your password" required value="@Model.ConfirmPassword"><br />
+            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+ 
+            <p>Phone Number:</p>
+        <input type="text" name="Mobile" required value="@Model.Mobile"><br />
+        <span asp-validation-for="Mobile" class="text-danger"></span>
+
+
+        
+            <p>Location:</p>
+        <input type="text" name="address" placeholder="Location" required value="@Model.address"><br />
+        <span asp-validation-for="address" class="text-danger"></span>
+
+
+            <div class="form-group">
+                <p>ImageUser:</p>
+            <input type="file" asp-for="ImageUser" class="form-control" name="img_file" required value="@Model.ImageUser" /><br />
+                <span asp-validation-for="ImageUser" class="text-danger"></span>
+            </div>
+            <br>
+            <button type="submit">Sign Up</button> <br>
+          
+
+            <a href="https://localhost:7049/SignUp/Login" style="text-decoration:none" class="button">Login</a>
+           
+         
+
+       
+    </div>
+
+</body>

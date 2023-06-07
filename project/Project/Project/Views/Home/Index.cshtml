@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@if (@TempData["SigninFlag"] != null && @TempData["SigninFlag"].ToString() == "1")
+{
+
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+
+}
+
+<div class="about" style="text-align:center">
+    @if (@TempData["img"] != null && TempData["Name"]!=null)
+    {
+        <h2 style="display: flex; justify-content: center; align-items: center;">
+            <span>Welcome @TempData["Name"]</span>
+            <img src="/img/@TempData["img"]" alt="Std_Image_Here" style="border-radius: 50%; width: 70px; height: 70px; margin-left: 10px;">
+        </h2>
+
+
+    }
+  
+    è buono is a family-owned restaurant located in the heart of the city.
+    Our passion for great food, exceptional service, and warm hospitality is evident in everything we do.
+    We take pride in serving fresh, locally-sourced ingredients and creating delicious, authentic Italian 
+    dishes that are sure to delight your taste buds. Our cozy and welcoming atmosphere provides the perfect
+    setting for a romantic dinner for two, a family celebration, or a night out with friends. We believe 
+    that food is not just about nourishment, but also about creating meaningful connections and memories.
+    Come visit us and experience the joy of Italian cuisine at è buono!.<br>
+</div>
+

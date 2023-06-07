@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+@{
+    Layout = null;
+}
+@model user
+<html lang="en">
+<head>
+
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+            color: #d4cf37;
+        }
+
+        body {
+            background-image: Url("/lib/images/1.png" );
+            background-size: cover;
+            background-repeat: no-repeat;
+            backdrop-filter: blur(5px);
+        }
+
+
+        .signin-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+        }
+
+            .signin-form p {
+                font-size: x-large;
+                margin: 15px 0;
+            }
+
+            .signin-form input {
+                background-color: #f2f1d0;
+                font-size: x-large;
+                padding: 15px 10px;
+                width: 100%;
+                border-radius: 5px;
+            }
+
+            .signin-form button {
+                font-size: x-large;
+                font-weight: bold;
+                margin: 20px 0;
+                padding: 10px 15px;
+                width: 50%;
+                height: 60px;
+                border-radius: 10px;
+                color: black;
+                background-color: #d4cf37;
+            }
+    </style>
+</head>
+<body>
+    <div class="signin-form">
+
+        <form asp-action="Login" method="post" asp-controller="SignUp" />
+        <p>Email:</p>
+        <input type="text" name="Email" placeholder="Email Address" required value="">
+        <p>Password:</p>
+        <input type="password" name="Password" placeholder="password" required value=""> 
+     
+
+       @* @Html.ValidationMessageFor(m => m.Password)*@
+     
+
+</body>
+<br>
+<button type="submit">Sign in</button> <br />
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div style"font-weight:bold" class="alert alert-danger">@ViewBag.ErrorMessage</div>
+}

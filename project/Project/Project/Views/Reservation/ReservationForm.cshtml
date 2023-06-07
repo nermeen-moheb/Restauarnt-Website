@@ -1,0 +1,94 @@
+﻿@if (@TempData["SigninFlag"] != null && @TempData["SigninFlag"].ToString() == "1")
+{
+
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+
+}
+@{
+    ViewData["title"] = "Reserve";
+}
+
+@model Reservation
+
+<head>
+    <style>
+
+        
+        form {
+       
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+ 
+          
+        }
+         body {
+            background-color: black;
+         }
+
+        h2 {
+            color: #d4cf37;
+        }
+
+        label {
+            color: white;
+        }
+
+        input,
+        select {
+            width: 600px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+            input[type="submit"] {
+                background-color: #d4cf37;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                margin-top: 10px;
+            }
+    </style>
+</head>
+<body>
+   
+    <form asp-action="ReservationForm" asp-controller="Reservation" method="post" class="reservation-form">
+        <h2>Make your reservation</h2>
+    
+ 
+        <label for="NumOfChairs"> Table Information</label><br />
+        <select name="NumOfChairs">
+
+           @foreach (var item in ViewBag.Tables)
+            {
+                <option value=""> Number @item.TableID With @item.NumOfChairs chairs </option>
+            }
+            
+        </select><br /><br />
+ 
+        <label for="TableID">Select the table number you choose </label><br />
+
+        <input type="number" name="TableID" value="@Model.TableID" required /><br />
+        <span asp-validation-for="TableID" style="color:#d4cf37" class="text-danger"> @ViewBag.ErrorMessage</span><br /><br />
+
+
+        <label> Date</label><br />
+        <input type="datetime-local" name="ReservationDate" value="@Model.ReservationDate" /><br />
+
+
+
+        <span class="text-danger">@Html.ValidationMessageFor(model=>model.ReservationDate)</span><br />
+
+        <input type="submit" value="Find Tables" />
+
+
+
+    </form>
+</body>

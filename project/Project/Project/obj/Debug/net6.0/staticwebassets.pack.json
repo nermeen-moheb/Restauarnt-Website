@@ -1,0 +1,605 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Project.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\1.png",
+      "PackagePath": "staticwebassets\\img\\1.png"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\Capture.JPG",
+      "PackagePath": "staticwebassets\\img\\Capture.JPG"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\Grilled-Chicken-Fettuccine.jpg",
+      "PackagePath": "staticwebassets\\img\\Grilled-Chicken-Fettuccine.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\Penne-All_Arrabbiata.jpg",
+      "PackagePath": "staticwebassets\\img\\Penne-All_Arrabbiata.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\about-1.jpg",
+      "PackagePath": "staticwebassets\\img\\about-1.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\about-2.jpg",
+      "PackagePath": "staticwebassets\\img\\about-2.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\about-3.jpg",
+      "PackagePath": "staticwebassets\\img\\about-3.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\about-4.jpg",
+      "PackagePath": "staticwebassets\\img\\about-4.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\bg-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-hero.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\bg2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg2.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\bg3.jpg",
+      "PackagePath": "staticwebassets\\img\\bg3.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\bg4.jpg",
+      "PackagePath": "staticwebassets\\img\\bg4.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\bg5.jpg",
+      "PackagePath": "staticwebassets\\img\\bg5.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\bg6.jpg",
+      "PackagePath": "staticwebassets\\img\\bg6.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\default.png",
+      "PackagePath": "staticwebassets\\img\\default.png"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\download.jpg",
+      "PackagePath": "staticwebassets\\img\\download.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\hero.png",
+      "PackagePath": "staticwebassets\\img\\hero.png"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\me.jpeg",
+      "PackagePath": "staticwebassets\\img\\me.jpeg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-1.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-1.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-10.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-10.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-11.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-11.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-12.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-12.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-13.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-13.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-14.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-14.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-15.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-15.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-16.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-16.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-17.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-17.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-18.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-18.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-19.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-19.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-2.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-2.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-20.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-20.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-21.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-21.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-22.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-22.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-23.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-23.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-24.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-24.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-3.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-3.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-4.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-4.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-5.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-5.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-6.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-6.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-7.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-7.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-8.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-8.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\menu-9.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-9.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\img\\video.jpg",
+      "PackagePath": "staticwebassets\\img\\video.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\images\\1.png",
+      "PackagePath": "staticwebassets\\lib\\images\\1.png"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\images\\2.png",
+      "PackagePath": "staticwebassets\\lib\\images\\2.png"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\images\\3.png",
+      "PackagePath": "staticwebassets\\lib\\images\\3.png"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\images\\h.jpg",
+      "PackagePath": "staticwebassets\\lib\\images\\h.jpg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\images\\logo.jpeg",
+      "PackagePath": "staticwebassets\\lib\\images\\logo.jpeg"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "E:\\3rdyear\\software2\\project\\Project\\Project\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Project.props",
+      "PackagePath": "build\\Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Project.props",
+      "PackagePath": "buildMultiTargeting\\Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Project.props",
+      "PackagePath": "buildTransitive\\Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

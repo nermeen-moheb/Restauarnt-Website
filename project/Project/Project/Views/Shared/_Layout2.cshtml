@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>@ViewData["Title"] </title>
+
+<link rel="stylesheet" href="~/~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/Project.styles.css" asp-append-version="true" />
+<style>
+    body {
+        background-color: black;
+    }
+
+    .logo img {
+        width: 230px;
+        height: 90px;
+        margin-top: 20px;
+    }
+
+    .text-center, .text-center a {
+        color: black;
+    }
+
+    .nav-bar {
+        width: 100%;
+        height: 25%;
+        position: fixed;
+        top: 0%;
+        background-color: black;
+    }
+
+    .nav-bar-elements {
+        text-align: center;
+        position: absolute;
+        top: 80%;
+        height: 20%;
+        width: 100%;
+        background-color: black;
+    }
+
+    .logo {
+        text-align: center;
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        background-color: black;
+    }
+
+    .nav-bar-elements a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    .nav-bar-element:hover {
+        color: #d4cf37;
+    }
+
+    .pic img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pic {
+        width: 100%;
+        height: 180%;
+    }
+
+    .footer {
+        width: 100%;
+        height: 7%;
+        background-color: black;
+        position: fixed;
+        bottom: 0%;
+        right: 0%;
+    }
+
+    .about {
+        text-align: center;
+        color: white;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        height: 40%;
+    }
+
+    .rightfoot {
+        left: 10px;
+        position: absolute;
+    }
+
+        .rightfoot img {
+            width: 25px;
+            height: 25px;
+            margin-left: 4px;
+            margin-right: 4px;
+            border-radius: 10px;
+        }
+
+    .leftfoot {
+        right: 30px;
+        position: absolute;
+    }
+
+        .leftfoot a {
+            text-decoration: none;
+            color: white;
+            margin-left: 20px;
+        }
+
+            .leftfoot a :hover {
+                color: #d4cf37;
+            }
+
+    button {
+        background-color: #d4cf37;
+        height: 40px;
+        border: transparent;
+        align-content: center;
+        border-color: black;
+    }
+</style>
+
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="~/lib/images/logo.jpeg" />
+        </div>
+        <div class="nav-bar-elements">
+            <a class="nav-bar-element" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            <a asp-area="" class="nav-bar-element" asp-controller="Menu" asp-action="Index">Menu</a>
+            <a asp-area="" class="nav-bar-element" asp-controller="Reservation" asp-action="ReservationForm">Reservation</a>
+            <a asp-area="" class="nav-bar-element" asp-controller="Cart" asp-action="showCart">Your Orders</a>
+
+            <a asp-area="" class="nav-bar-element" asp-controller="Feedback" asp-action="Index">Feedback</a>
+        </div>
+    </div>
+
+    <div class="pic">
+        <img id="restaurantImage" src="@Url.Content("~/img/1.png")">
+    </div>
+
+
+    @RenderBody()
+
+
+
+    <footer class="fixed-bottom bg-black" style="height: 10%;">
+        <div class="container" style="margin-top:14px;">
+
+            <div class="rightfoot">
+                <a href="www.facebook.com" target="_blank"> <img src="~/lib/images/2.png" /></a>
+                <a href="www.instagram.com" target="_blank"> <img src="~/lib/images/3.png" /> </a>
+            </div>
+
+            <div class="leftfoot">
+
+                <a asp-area="" class="nav-bar-element" asp-controller="ContactUs" asp-action="Index">Contact Us</a>
+                <a asp-area="" class="nav-bar-element" asp-controller="PrivacyPolicy" asp-action="Index">Privacy & Policy</a>
+                <a asp-area="" class="nav-bar-element" asp-controller="SignUp" asp-action="Logout"> LogOut </a>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Array of image URLs to rotate
+            var imageUrls = [
+                '@Url.Content("~/img/1.png")',
+                '@Url.Content("~/img/bg6.jpg")',
+                '@Url.Content("~/img/bg3.jpg")',
+                '@Url.Content("~/img/bg4.jpg")'];
+
+            var imageIndex = 0;
+            var imageElement = document.getElementById("restaurantImage");
+
+            // Function to change the image
+            function changeImage() {
+                imageElement.src = imageUrls[imageIndex];
+                imageIndex = (imageIndex + 1) % imageUrls.length;
+            }
+
+            // Initial call to change the image
+            changeImage();
+
+            // Set interval to change the image every 5 seconds (5000 milliseconds)
+            setInterval(changeImage, 5000);
+        });
+    </script>
+</body>

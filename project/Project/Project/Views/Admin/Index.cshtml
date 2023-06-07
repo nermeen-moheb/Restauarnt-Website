@@ -1,0 +1,44 @@
+﻿
+@if (@TempData["SigninFlag"] != null && @TempData["SigninFlag"].ToString() == "1")
+{
+
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+
+}
+<style>
+    .co {
+        color: white;
+        font-weight: 800;
+        font-size: xx-large;
+        text-align: center;
+        margin-top: 5%;
+ 
+    }
+    .items{
+    
+        font-weight: 800;
+        font-size: x-large;
+        text-align: center;
+        margin-top: 2%;
+ 
+    }
+    .nav-bar-element{
+        text-decoration:none;
+        color: white;
+        margin-right:10px;
+    }
+</style>
+
+
+
+
+<div class="co"> Welcome Admin </div>
+<div class="items">
+
+    <a class="nav-bar-element" asp-controller="Admin" asp-action="showReservation">Show Reservations</a>
+    <a class="nav-bar-element" asp-controller="Admin" asp-action="showSurvey">Show Surveys</a>
+    <a class="nav-bar-element" asp-controller="Admin" asp-action="showProblem">Show Problems</a>
+    <a class="nav-bar-element" asp-controller="Admin" asp-action="showOrder">Show Orders</a>
+    <a class="nav-bar-element" asp-controller="Admin" asp-action="showMenu">Show Items</a>
+
+</div>

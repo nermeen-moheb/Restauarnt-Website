@@ -1,0 +1,126 @@
+﻿@{
+    ViewData["Title"] = "Feedback Page";
+}
+@if (@TempData["SigninFlag"] != null && @TempData["SigninFlag"].ToString() == "1")
+{
+
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+
+}
+@model Survey
+
+
+<head>
+    <style>
+      
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+        }
+        input {
+            height: 35px;
+            width: 40%;
+        }
+
+        select {
+            height: 35px;
+            width: 40%;
+        }
+
+        label {
+            display: flex;
+            font-size: x-large;
+            color: #d4cf37;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+
+     
+
+        p {
+            color: #d4cf37;
+            font-size: x-large;
+            margin: 15px 0;
+        }
+
+        textarea {
+            width: 40%;
+            height: 150px;
+        }
+
+    </style>
+</head>
+
+
+
+<form asp-controller="Feedback" asp-action="Index" method="post" style="background-color:black";/>
+    <p id="description" style="color: white; "> Let us know how can we improve Our restaurant </p>
+
+        <label >Email</label>
+        <input type="text" id="email" name="Email" required value="@Model.Email"><br><br>
+
+        <label for="visit">Date of Visit</label>
+        <input type="date" id="visit" name="Date" required value="@Model.Date"><br><br>
+
+
+        <label for="rating">Food Quality</label>
+        @Html.DropDownListFor(model => model.FoodQuality,
+        new SelectList(Enum.GetValues(typeof(evaluate))))
+    <br><br>
+
+     <label for="rating">Overall Service Quality</label>
+    @Html.DropDownListFor(model => model.OverallService,
+    new SelectList(Enum.GetValues(typeof(evaluate))))
+    <br><br>
+
+    <label for="rating">Cleanliness </label>
+    @Html.DropDownListFor(model => model.Cleanliness,
+    new SelectList(Enum.GetValues(typeof(evaluate))))
+    <br><br>
+
+
+     <label for="rating"> Order Accuracy</label>
+    @Html.DropDownListFor(model => model.OrderAccuracy,
+    new SelectList(Enum.GetValues(typeof(evaluate))))
+    <br><br>
+
+
+
+    <label for="rating">Speed of Service </label>
+    @Html.DropDownListFor(model => model.SpeedofService,
+    new SelectList(Enum.GetValues(typeof(evaluate))))
+
+
+
+    <label for="rating">Value </label>
+    @Html.DropDownListFor(model => model.Value,
+    new SelectList(Enum.GetValues(typeof(evaluate))))
+    <br><br>
+
+
+
+    <label for="rating">Overall Experience </label>
+    @Html.DropDownListFor(model => model.OverallExperience,
+    new SelectList(Enum.GetValues(typeof(evaluate))))
+    <br><br>
+
+
+    <label for="comments">Any additional comments</label>
+    @Html.TextAreaFor(model=>model.additionalcomments)
+   
+
+    <p style="color: #d4cf37;">It was pleasure  to see you &#x1F60A;</p>
+    <input type="submit" value="Submit" style=" background-color: #d4cf37; border:1px solid  #d4cf37; font-size: x-large;" />
+ 
+
+
+
+
+
+
+
+
+

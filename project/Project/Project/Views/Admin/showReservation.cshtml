@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["title"] = "Reservations";
+}
+@if (@TempData["SigninFlag"] != null && @TempData["SigninFlag"].ToString() == "1")
+{
+
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+
+}
+@model IEnumerable<Reservation>;
+
+<style>
+    table {
+        margin-top: 5%;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 2px solid white;
+    }
+</style>
+
+
+
+<table class="table table-bordered" style="color:white; border-color:white">
+    <thead>
+        <tr>
+            <th>Customer.Email</th>
+            <th>ReservationDate</th>
+            <th>TableID</th>
+            <th>NumOfChairs</th>
+      
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Customer.Email</td>
+                <td>@item.ReservationDate</td>
+                <td>@item.TableID</td>
+                <td> @item.Table.NumOfChairs </td>
+    
+            </tr>
+        }
+    </tbody>
+</table>
+
+    </table>
